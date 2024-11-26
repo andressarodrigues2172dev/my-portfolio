@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Andressa Rodrigues</div>
+        <div>
+            <ul class="nav-links">
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#experience">Habilidades</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Andressa Rodrigues</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Habilidades</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contact"  onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Andressa Rodrigues">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Andressa Rodrigues</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Andressa_Maria_r.pdf')">Download CV</button>
+            
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contato</button>
+            
+        </div>
+        <div class="socials-container">
+            <img src="./assets/linkedin.png" 
+            alt="My linkedin profile" 
+            class="icon"
+             onclick="location.href='https://www.linkedin.com/in/andressa-macedo-rodrigues/'">
+
+            <img src="./assets/github.png" 
+            alt="My github profile" 
+            class="icon"
+             onclick="location.href='https://github.com/andressarodrigues2172dev'">
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Saiba mais </p>
+        <h1 class="title">Sobre mim</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about-pic.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experiência</h3>
+                <p>2+ anos <br />Resolução de problemas</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Formação</h3>
+                <p>Sistemas da Informação<br />Centro Universitários das Américas</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Sou uma desenvolvedora de software comprometida com a criação de soluções tecnológicas que façam a diferença. Minha trajetória é marcada por dedicação ao aprendizado contínuo e por projetos que demonstram minha capacidade de trabalhar com eficiência e criatividade.
+
+                Tenho interesse em explorar diferentes áreas do desenvolvimento de software, desde a criação de aplicações robustas até a implementação de interfaces intuitivas e funcionais. Acredito que a tecnologia é uma ferramenta poderosa para transformar ideias em realidade, e estou sempre pronta para encarar novos desafios.
+                
+                Seja para colaborar em projetos inovadores ou contribuir com soluções práticas, estou aberta a novas oportunidades e conexões.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Minhas</p>
+        <h1 class="title">Hardskills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experiente</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experiente</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>TypeScript</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Thymeleaf</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Backend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node JS</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Spring Boot</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+             
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>MySQL</h3>
+                      <p>Intermediário</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Navegue pelos meus</p>
+        <h1 class="title">Projetos Recentes</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/andressarodrigues2172dev/chama-elas.git'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/andressarodrigues2172dev/capivara-management.git'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/andressarodrigues2172dev/Armazem-mercadinho.git'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Vamos Conversar</p>
+        <h1 class="title">Entre em contato</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:andressa.rodrigues.2172@gmail.com">andressa.rodrigues.2172@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/andressa-macedo-rodrigues
+                ">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#experience">Habilidades</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Andressa Rodrigues. All Rights Reserved.</p>
+      </footer>
+
+    <script src="./script.js">
+    
+    </script>
+</body>
+</html>
